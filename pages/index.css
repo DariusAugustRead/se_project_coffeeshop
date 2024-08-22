@@ -50,6 +50,7 @@
 
 .nav__link {
   font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -59,6 +60,7 @@
 .header__title {
   margin: 0;
   font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
@@ -68,7 +70,7 @@
 
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -79,6 +81,8 @@
 .header__description {
   margin: 28px 0 0;
   font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
@@ -86,6 +90,7 @@
 
 .header__footer {
   font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -114,6 +119,7 @@
 .recipes__title {
   margin: 0 0 24px;
   font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -123,8 +129,11 @@
   margin: 0 0 80px;
   max-width: 438px;
   font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  padding: 0;
 }
 
 .recipes__videos {
@@ -139,6 +148,7 @@
   display: flex;
   justify-content: space-between;
   font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
