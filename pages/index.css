@@ -169,3 +169,17 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+
+@font-face {
+  font-family: "Inter", Arial, sans-serif;
+  src: url();
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  src: url();
+  font-weight: normal;
+  font-style: normal;
+}
