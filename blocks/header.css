@@ -7,7 +7,6 @@
   position: relative;
   background-size: cover;
   background-image: url(../images/background_header.svg);
-  z-index: -2;
 }
 
 .header__image {
@@ -16,7 +15,7 @@
   height: 568px;
   width: 646px;
   right: 5px;
-  z-index: -1;
+  z-index: 1;
 }
 
 .header__title {
@@ -28,6 +27,7 @@
   line-height: 72px;
   letter-spacing: -0.6px;
   max-width: 729px;
+  z-index: 2;
 }
 
 .header__span-accent {
@@ -46,6 +46,7 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
+  z-index: 2;
 }
 
 .header__footer {
