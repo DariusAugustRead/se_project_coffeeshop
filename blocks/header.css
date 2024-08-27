@@ -17,41 +17,6 @@
   right: 5px;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 183px;
-}
-
-.nav__logo {
-  position: relative;
-  left: -50px;
-  width: 105px;
-  height: 39px;
-}
-
-.nav__links {
-  display: flex;
-  gap: 20px;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.nav__link {
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #000;
-}
-
-.nav__link:hover {
-  opacity: 50%;
-  transition: opacity 0.3s ease-in-out;
-}
-
 .header__title {
   margin: 0;
   font-family: "Inter", Arial, sans-serif;
@@ -68,8 +33,6 @@
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
   color: #3f96f3;
 }
 
